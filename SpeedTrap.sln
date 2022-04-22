@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTrap", "Source\SpeedTrap\SpeedTrap.csproj", "{7D6C5D41-747B-422D-96DB-46F20E60A0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTrap.Abstractions", "Source\SpeedTrap.Abstractions\SpeedTrap.Abstractions.csproj", "{A1F95A6E-7E10-4C5E-966E-B8F06CB93DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTrap.Extensions.Microsoft.DependencyInjection", "Source\SpeedTrap.Extensions.Microsoft.DependencyInjection\SpeedTrap.Extensions.Microsoft.DependencyInjection.csproj", "{BEB69243-C39F-4C4D-9AC1-3B4094A3E208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTrap.Extensions.Microsoft.AspNetCore", "Source\SpeedTrap.Extensions.Microsoft.AspNetCore\SpeedTrap.Extensions.Microsoft.AspNetCore.csproj", "{5D112259-8816-4713-B1E1-EB5E7F6B7497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTrap.Tests", "Source\SpeedTrap.Tests\SpeedTrap.Tests.csproj", "{1496D45A-3BC6-4DB4-9180-35112E1104F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D6C5D41-747B-422D-96DB-46F20E60A0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6C5D41-747B-422D-96DB-46F20E60A0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6C5D41-747B-422D-96DB-46F20E60A0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6C5D41-747B-422D-96DB-46F20E60A0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F95A6E-7E10-4C5E-966E-B8F06CB93DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F95A6E-7E10-4C5E-966E-B8F06CB93DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F95A6E-7E10-4C5E-966E-B8F06CB93DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F95A6E-7E10-4C5E-966E-B8F06CB93DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB69243-C39F-4C4D-9AC1-3B4094A3E208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB69243-C39F-4C4D-9AC1-3B4094A3E208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB69243-C39F-4C4D-9AC1-3B4094A3E208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB69243-C39F-4C4D-9AC1-3B4094A3E208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D112259-8816-4713-B1E1-EB5E7F6B7497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D112259-8816-4713-B1E1-EB5E7F6B7497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D112259-8816-4713-B1E1-EB5E7F6B7497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D112259-8816-4713-B1E1-EB5E7F6B7497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1496D45A-3BC6-4DB4-9180-35112E1104F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1496D45A-3BC6-4DB4-9180-35112E1104F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1496D45A-3BC6-4DB4-9180-35112E1104F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1496D45A-3BC6-4DB4-9180-35112E1104F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

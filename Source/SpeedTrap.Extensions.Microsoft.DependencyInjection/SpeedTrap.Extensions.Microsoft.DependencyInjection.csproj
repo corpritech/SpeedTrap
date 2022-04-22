@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>CorpriTech.SpeedTrap.Extensions.Microsoft.DependencyInjection</AssemblyName>
+        <RootNamespace>Microsoft.Extensions.DependencyInjection.Extensions</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>CorpriTech.SpeedTrap.Extensions.Microsoft.DependencyInjection</PackageId>
+        <PackageVersion>1.0.0-beta-0001</PackageVersion>
+        <PackageReleaseNotes>Initial version.</PackageReleaseNotes>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>Copyright (c) 2022 Corpri Technology Solutions LLC</Copyright>
+        <Authors>CorpriTech</Authors>
+        <PackageTags>CorpriTech;Speed;Trap;Tracing;Extensions;Dependency Injection</PackageTags>
+        <RepositoryUrl>https://github.com/corpritech/SpeedTrap</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/corpritech/SpeedTrap</PackageProjectUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <Description>SpeedTrap extensions for Microsoft dependency injection. Do you know how fast you were going? Find out with SpeedTrap, and make tracing simple. With SpeedTrap you can quickly start traces with any number of nested scopes. Find out where your application spends the most amount of time with SpeedTrap!</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SpeedTrap.Abstractions\SpeedTrap.Abstractions.csproj" />
+      <ProjectReference Include="..\SpeedTrap\SpeedTrap.csproj" />
+    </ItemGroup>
+
+</Project>
